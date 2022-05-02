@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+    <title>Course Verification Form</title>
+</head>
+<body>
+    <h1 style="color: white;">Course Search</h1>
+
+     <div class = "course_registration_form">
+    
+      <form action="retrieve.php" method="post" >
+
+<input type="text" name="Course_ID" placeholder="COURSE ID"></br> </br>
+
+<input type="submit" name="search" value="Search Record">
+
+
+</form>
+<br> 
+
+<a href="index.html"><button>Main Menu</button></a>
+
+<br>
+
+<table>
+<tr>
+    <th >Course ID</th>
+    <th>Course Name</th>
+</tr>
+<tr>
+    <td name='$Course_ID'> </td>
+    <td name='$Course_Name'> </td>
+    
+
+</tr>
+</table>
+
+</body>
+</html>
+

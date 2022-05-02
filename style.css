@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+   background-image: url("bg.jpg") ;
+  background-size: cover;
+}
+
+.course_registration_form{
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  color: #fff;
+}
+
+.course_retrieval_form{
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  color: #fff;
+}
+
+h1 {
+  color: white;
+   text-align: center;
+}
+
+.alignment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 20px;
+  margin:  15px 0;
+}
+
+input {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding : 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  border: 0;
+
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+img {
+  border-radius: 50%;

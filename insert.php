@@ -1,0 +1,3 @@
+//declare variables
+
+$servername = "localhost";
